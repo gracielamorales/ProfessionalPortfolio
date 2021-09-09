@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+}
+
+/* header*/
+header {
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    top: 0;
+    
+}
