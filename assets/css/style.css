@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #fff5ee;
+    --secondary-color: #40e0d0;
+
+}
+
 body {
     color:grey;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
@@ -16,5 +22,63 @@ header {
     flex-wrap: wrap;
     font-size: 20px;
     top: 0;
-    
+    padding: 20px 35px;
+    justify-content: space-between;
+    position: sticky;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+
+}
+
+header a {
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 10px 6px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 15px;
+}
+/* header styles end*/
+
+/* About Me section + picture */
+.about-me {
+    margin-right: 32px;
+    font: 15px;
+}
+
+.description {
+    float: right;
+}
+
+.about-me img {
+    width: 30%;
+    margin-left: 15px;
+}
+/* About Me styles end*/
+
+/* Section-Projects */
+.section-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.projects-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 15px;
 }
