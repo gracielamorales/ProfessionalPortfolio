@@ -28,6 +28,7 @@ header {
 }
 
 header h1 {
+    color: var(--secondary-color);
     font-size: 50px;
     margin: 0;
 
@@ -74,6 +75,9 @@ header nav ul li a {
 .section-title {
     text-align: center;
     font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: var(--secondary-color);
 }
 
 .projects-list {
@@ -81,4 +85,13 @@ header nav ul li a {
     align-items: baseline;
     justify-content: space-around;
     margin-top: 15px;
+}
+/* section-projects end*/
+
+/* contact info*/
+.contact-links {
+    align-items: baseline;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
 }
